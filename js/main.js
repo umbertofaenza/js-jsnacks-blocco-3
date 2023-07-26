@@ -18,13 +18,26 @@
 
 // # Traccia 2
 
-const firstWord = prompt("Inserisci una parola");
-const secondWord = prompt("Inserisci un'altra parola");
+// const firstWord = prompt("Inserisci una parola");
+// const secondWord = prompt("Inserisci un'altra parola");
 
-if (firstWord.length == secondWord.length) {
-  console.log(firstWord + " " + secondWord);
-} else if (firstWord.length > secondWord.length) {
-  console.log(firstWord);
-} else {
-  console.log(secondWord);
+// if (firstWord.length == secondWord.length) {
+//   console.log(firstWord + " " + secondWord);
+// } else if (firstWord.length > secondWord.length) {
+//   console.log(firstWord);
+// } else {
+//   console.log(secondWord);
+// }
+
+// # Traccia 3
+
+const numbers = [];
+let arrayElementsSum = 0;
+
+while (arrayElementsSum < 5) {
+  const userNumber = parseInt(prompt("Inserisci un numero"));
+  numbers.push(userNumber);
+  arrayElementsSum += userNumber;
 }
+
+console.log(numbers);
