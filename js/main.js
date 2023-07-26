@@ -34,7 +34,7 @@
 const numbers = [];
 let arrayElementsSum = 0;
 
-while (arrayElementsSum < 5) {
+while (arrayElementsSum < 50) {
   const userNumber = parseInt(prompt("Inserisci un numero"));
   numbers.push(userNumber);
   arrayElementsSum += userNumber;
