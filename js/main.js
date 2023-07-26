@@ -44,13 +44,27 @@
 
 // # Traccia 4
 
-const numbers = [];
-let arrayElementsSum = 0;
+// const numbers = [];
+// let arrayElementsSum = 0;
 
-while (arrayElementsSum < 50) {
-  const userNumber = parseInt(prompt("Inserisci un numero"));
-  numbers.push(userNumber);
-  arrayElementsSum += userNumber;
+// while (arrayElementsSum < 50) {
+//   const userNumber = parseInt(prompt("Inserisci un numero"));
+//   numbers.push(userNumber);
+//   arrayElementsSum += userNumber;
+// }
+
+// console.log(arrayElementsSum / numbers.length);
+
+// # Traccia 5
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = "";
+
+for (let i = 0; i < numbers.length - 1; i++) {
+  if (i % 2 != 0) {
+    evenNumbers += i;
+  }
 }
+console.log(evenNumbers);
 
-console.log(arrayElementsSum / numbers.length);
+// dovrebbe restituire [1,3,5]
