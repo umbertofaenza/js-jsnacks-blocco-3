@@ -31,6 +31,19 @@
 
 // # Traccia 3
 
+// const numbers = [];
+// let arrayElementsSum = 0;
+
+// while (arrayElementsSum < 50) {
+//   const userNumber = parseInt(prompt("Inserisci un numero"));
+//   numbers.push(userNumber);
+//   arrayElementsSum += userNumber;
+// }
+
+// console.log(numbers);
+
+// # Traccia 4
+
 const numbers = [];
 let arrayElementsSum = 0;
 
@@ -40,4 +53,4 @@ while (arrayElementsSum < 50) {
   arrayElementsSum += userNumber;
 }
 
-console.log(numbers);
+console.log(arrayElementsSum / numbers.length);
